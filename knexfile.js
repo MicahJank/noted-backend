@@ -5,7 +5,7 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: './data/templateDB.db3' // <-- Replace
+      filename: './data/notes.db3' // <-- Replace
     },
     useNullAsDefault: true,
     pool: {
