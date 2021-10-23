@@ -4,3 +4,8 @@ const db = require("../data/dbConfig.js");
 const getUserNotes = id => {
 
 }
+
+// notes saved by the user needs to be added to the database
+const addUserNote = (noteObject) => {
+
+}
