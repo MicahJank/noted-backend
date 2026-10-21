@@ -78,3 +78,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Local credentials and environment backups
+.env.*
+*.env
+!.env.example
+!.env.*.example
